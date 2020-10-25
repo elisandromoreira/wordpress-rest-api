@@ -95,14 +95,7 @@ function api_photos_get($request) {
         }
     }
 
-    /* $response = [
-        'total' => $_total,
-        'page' => $_page,
-        'user' => $_user,
-    ];
-     */
-    
-     return rest_ensure_response($photos);
+    return rest_ensure_response($photos);
 
 }
 
