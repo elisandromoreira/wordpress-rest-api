@@ -9,6 +9,7 @@ require_once $dirbase . '/endpoints/photo_post.php';
 require_once $dirbase . '/endpoints/photo_delete.php';
 
 require_once $dirbase . '/endpoints/comment_post.php';
+require_once $dirbase . '/endpoints/comment_get.php';
 
 update_option( 'large_size_w', 1000);
 update_option( 'large_size_h', 1000);
